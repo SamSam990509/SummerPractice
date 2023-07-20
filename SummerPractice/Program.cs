@@ -12,7 +12,9 @@ namespace SummerPractice
         {
             Medium a = new Medium();
             Hard H= new Hard();
-            H.ValidHexCode("#123abC");
+            VeryHard VH= new VeryHard();
+           Console.WriteLine(VH.Simplify("1200/120"));
+            H.ValidHexCode("#123BbC");
             Console.WriteLine(a.ArrayOfMultiplaces(8, 7));
            Console.WriteLine( a.ReverseCase("HelloWorld"));
             Console.ReadKey();
